@@ -1,0 +1,376 @@
+{
+  "version": "0.8.8-twenty-camera-h04-micro-orientation-capture",
+  "active_profile": "relay20_side_optv1_fov100_marker55_normalopt_t2p5_h04t1p5_dynamic_straight",
+  "camera_layout_profile": "longrange_20cam_side_optv1_staggered_overhead_fov100",
+  "test_type": "longrange_dynamic",
+  "capture_mode": "dynamic",
+  "dataset_name": "dataset_helmet_longrange_20cam_side_optv1_fov100_marker55_normalopt_t2p5_h04t1p5_dynamic_0001",
+  "units": "cm",
+  "fps": 30,
+  "frame_count": 300,
+  "duration_sec": 10.0,
+  "image_width": 1280,
+  "image_height": 720,
+  "camera_count": 20,
+  "camera_ids": [
+    "Camera_01",
+    "Camera_02",
+    "Camera_03",
+    "Camera_04",
+    "Camera_05",
+    "Camera_06",
+    "Camera_07",
+    "Camera_08",
+    "Camera_09",
+    "Camera_10",
+    "Camera_11",
+    "Camera_12",
+    "Camera_13",
+    "Camera_14",
+    "Camera_15",
+    "Camera_16",
+    "Camera_17",
+    "Camera_18",
+    "Camera_19",
+    "Camera_20"
+  ],
+  "horizontal_fov_deg_by_camera": {
+    "Camera_01": 85.0,
+    "Camera_02": 85.0,
+    "Camera_03": 85.0,
+    "Camera_04": 85.0,
+    "Camera_05": 85.0,
+    "Camera_06": 85.0,
+    "Camera_07": 85.0,
+    "Camera_08": 85.0,
+    "Camera_09": 85.0,
+    "Camera_10": 85.0,
+    "Camera_11": 85.0,
+    "Camera_12": 85.0,
+    "Camera_13": 100.0,
+    "Camera_14": 100.0,
+    "Camera_15": 100.0,
+    "Camera_16": 100.0,
+    "Camera_17": 100.0,
+    "Camera_18": 100.0,
+    "Camera_19": 100.0,
+    "Camera_20": 100.0
+  },
+  "rigid_body_id": "helmet_01",
+  "rigid_body_variant": "BP_HelmetRigidBody_01_round_5p5cm_normalopt_t2p5_h04t1p5",
+  "rigid_body_blueprint": "/Game/Mocap/Blueprints/RigidBodies/BP_HelmetRigidBody_01",
+  "camera_to_rigid_body_distance": {
+    "target_range_m": [
+      0.0,
+      100.0
+    ],
+    "measured_range_m": [
+      0.8659136708569132,
+      7.877182237323192
+    ],
+    "per_camera": {
+      "Camera_01": {
+        "min_m": 2.308679276123039,
+        "max_m": 7.370888684548152
+      },
+      "Camera_02": {
+        "min_m": 2.4867319557574423,
+        "max_m": 5.771048431611018
+      },
+      "Camera_03": {
+        "min_m": 2.294594893577309,
+        "max_m": 4.192851058647326
+      },
+      "Camera_04": {
+        "min_m": 2.303557882486515,
+        "max_m": 5.771048431611018
+      },
+      "Camera_05": {
+        "min_m": 2.304816755898079,
+        "max_m": 7.370888684548152
+      },
+      "Camera_06": {
+        "min_m": 2.3804759022880564,
+        "max_m": 7.398817473083114
+      },
+      "Camera_07": {
+        "min_m": 2.212873004795558,
+        "max_m": 5.735198340075084
+      },
+      "Camera_08": {
+        "min_m": 2.3937607864540884,
+        "max_m": 4.24175671155242
+      },
+      "Camera_09": {
+        "min_m": 2.4031711551782653,
+        "max_m": 5.735198340075084
+      },
+      "Camera_10": {
+        "min_m": 2.396351393264352,
+        "max_m": 7.398817473083114
+      },
+      "Camera_11": {
+        "min_m": 1.3601470508735443,
+        "max_m": 7.877182237323192
+      },
+      "Camera_12": {
+        "min_m": 1.3601470508735443,
+        "max_m": 7.877182237323192
+      },
+      "Camera_13": {
+        "min_m": 0.9351016919214397,
+        "max_m": 6.629962763847169
+      },
+      "Camera_14": {
+        "min_m": 1.0234871279988276,
+        "max_m": 4.904095864682908
+      },
+      "Camera_15": {
+        "min_m": 0.8895366913077182,
+        "max_m": 4.048938904206879
+      },
+      "Camera_16": {
+        "min_m": 0.9269396435193953,
+        "max_m": 5.765210859110011
+      },
+      "Camera_17": {
+        "min_m": 0.8659136708569132,
+        "max_m": 5.765210859110011
+      },
+      "Camera_18": {
+        "min_m": 0.9544125280775098,
+        "max_m": 4.048938904206879
+      },
+      "Camera_19": {
+        "min_m": 0.9649477963909837,
+        "max_m": 4.904095864682908
+      },
+      "Camera_20": {
+        "min_m": 0.9884599006719054,
+        "max_m": 6.629962763847169
+      }
+    }
+  },
+  "camera_to_marker_distance": {
+    "target_max_m": 100.0,
+    "measured_range_m": [
+      0.7441422114485039,
+      7.985202258838217
+    ],
+    "per_camera": {
+      "Camera_01": {
+        "min_m": 2.190085773201371,
+        "max_m": 7.479455224819133
+      },
+      "Camera_02": {
+        "min_m": 2.361294743748717,
+        "max_m": 5.872516783213538
+      },
+      "Camera_03": {
+        "min_m": 2.1748211628639256,
+        "max_m": 4.287301069446163
+      },
+      "Camera_04": {
+        "min_m": 2.1806258527075872,
+        "max_m": 5.8501898486150115
+      },
+      "Camera_05": {
+        "min_m": 2.188843710460042,
+        "max_m": 7.460156560673991
+      },
+      "Camera_06": {
+        "min_m": 2.2812015542963757,
+        "max_m": 7.499440203716853
+      },
+      "Camera_07": {
+        "min_m": 2.1070879503691162,
+        "max_m": 5.833108333377318
+      },
+      "Camera_08": {
+        "min_m": 2.2873364520067363,
+        "max_m": 4.341014053354254
+      },
+      "Camera_09": {
+        "min_m": 2.2990709596752246,
+        "max_m": 5.8415120300154015
+      },
+      "Camera_10": {
+        "min_m": 2.2988655315513564,
+        "max_m": 7.505213765192471
+      },
+      "Camera_11": {
+        "min_m": 1.2492757483154804,
+        "max_m": 7.985202258838217
+      },
+      "Camera_12": {
+        "min_m": 1.2529864782011635,
+        "max_m": 7.978073301821415
+      },
+      "Camera_13": {
+        "min_m": 0.830053868402989,
+        "max_m": 6.739672497510128
+      },
+      "Camera_14": {
+        "min_m": 0.919600094807774,
+        "max_m": 5.011116180422721
+      },
+      "Camera_15": {
+        "min_m": 0.8033524570079446,
+        "max_m": 4.141244927676752
+      },
+      "Camera_16": {
+        "min_m": 0.8371672832577475,
+        "max_m": 5.863086253452894
+      },
+      "Camera_17": {
+        "min_m": 0.7441422114485039,
+        "max_m": 5.87210442462448
+      },
+      "Camera_18": {
+        "min_m": 0.8512735188718112,
+        "max_m": 4.151169759681528
+      },
+      "Camera_19": {
+        "min_m": 0.85596543468151,
+        "max_m": 5.006285042497447
+      },
+      "Camera_20": {
+        "min_m": 0.8732414206679987,
+        "max_m": 6.734334472771125
+      }
+    }
+  },
+  "distance_requirements": {
+    "working_distance_enforced": false,
+    "marker_distance_enforced": false,
+    "distance_recorded_for_evaluation": true,
+    "distance_bands_m": [
+      0.0,
+      2.0,
+      4.0,
+      6.0
+    ]
+  },
+  "coverage_requirements": {
+    "minimum_active_cameras_per_frame": 6,
+    "minimum_projected_markers_per_active_camera": 4,
+    "physical_occlusion_included": true
+  },
+  "coverage_preflight": {
+    "minimum_active_camera_count": 9,
+    "maximum_active_camera_count": 15,
+    "mean_active_camera_count": 10.95,
+    "failed_frame_count": 0,
+    "fully_inside_frame_camera_observations": 2976,
+    "camera_frame_observations": 6000
+  },
+  "trajectory": {
+    "axis": "+X",
+    "start_cm": [
+      -350.0,
+      0.0,
+      150.0
+    ],
+    "end_cm": [
+      350.0,
+      0.0,
+      150.0
+    ],
+    "path_length_m": 7.0,
+    "y_sine_amplitude_cm": 10.0,
+    "z_sine_amplitude_cm": 5.0,
+    "yaw_amplitude_deg": 20.0,
+    "pitch_amplitude_deg": 8.0,
+    "roll_amplitude_deg": 5.0,
+    "checkpoint_x_cm": [
+      -350.0,
+      -262.5,
+      -175.0,
+      -87.5,
+      0.0,
+      87.5,
+      175.0,
+      262.5,
+      350.0
+    ]
+  },
+  "lighting": {
+    "normalized_room_lights": true,
+    "room_light_intensity": 100.0,
+    "fixed_capture_exposure": true,
+    "capture_exposure_bias": -1.5
+  },
+  "visibility": {
+    "in_front": true,
+    "image_bounds": true,
+    "physical_occlusion": true
+  },
+  "coverage_result": {
+    "minimum_active_camera_count": 9,
+    "maximum_active_camera_count": 15,
+    "mean_active_camera_count": 10.95,
+    "failed_frame_count": 0
+  },
+  "layout_variant": "optimized_discrete_v1",
+  "side_target_x_cm": [
+    -262.5,
+    -175.0,
+    87.5,
+    175.0,
+    175.0
+  ],
+  "observation_quality_ground_truth": {
+    "file": "observation_quality_frames.json",
+    "physical_occlusion_complete": true,
+    "pose_estimable_rate": 0.9933333333333333,
+    "minimum_robust_marker_count": 3,
+    "minimum_quality_active_camera_count": 0
+  },
+  "marker_normal_variant": "h04_t1p5",
+  "marker_orientation": {
+    "source": "v0.8.8 H04-only +/-1 degree controlled sweep",
+    "optimized_marker_ids": [
+      "H02",
+      "H04",
+      "H05"
+    ],
+    "optimized_local_up_vectors": {
+      "H02": [
+        0.4812367655120735,
+        0.40368318938676595,
+        0.7781073564271231
+      ],
+      "H04": [
+        0.9306283898123653,
+        0.05658290649081193,
+        0.3615648970355062
+      ],
+      "H05": [
+        0.5607541184869478,
+        -0.7411435793425247,
+        0.3691354946347983
+      ]
+    },
+    "maximum_tilt_from_v085_deg": 2.5,
+    "actual_tilt_by_marker_deg": {
+      "H02": 2.5,
+      "H04": 1.5,
+      "H05": 2.5
+    },
+    "selection_objective": "H04-only rendered-center and pose-error A/B",
+    "applied_on_spawned_instance": true
+  },
+  "controlled_experiment": {
+    "changed_variable": "H04 local +Z tilt only",
+    "control_h04_tilt_deg": 2.5,
+    "candidate_h04_tilt_deg": 1.5,
+    "fixed_marker_tilts_deg": {
+      "H02": 2.5,
+      "H05": 2.5
+    },
+    "camera_layout_changed": false,
+    "trajectory_changed": false,
+    "marker_positions_changed": false,
+    "marker_size_changed": false
+  }
+}

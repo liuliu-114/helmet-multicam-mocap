@@ -1,0 +1,325 @@
+{
+  "version": "1.0.0-mujoco-team20cam-t2p5",
+  "units": "cm",
+  "marker_visual": {
+    "type": "red_emissive_disc_5p5cm",
+    "diameter_cm": 4.0,
+    "thickness_cm": 0.2,
+    "component_tag": "MocapMarker"
+  },
+  "rigid_bodies": [
+    {
+      "rigid_body_id": "helmet_01",
+      "blueprint_path": "/Game/Mocap/Blueprints/RigidBodies/BP_HelmetRigidBody_01",
+      "body_meshes": [
+        {
+          "component_name": "HelmetMesh",
+          "static_mesh": "/Game/Fab/Motorcycle_Helmet_3D_Model/helmet_project.helmet_project",
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "id": "H01",
+          "component_name": "MarkerVisual_01",
+          "position_cm": [
+            -7.678422739208429,
+            5.796414046925406,
+            8.300000000000011
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_01",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.055,
+                0.055,
+                0.002
+              ]
+            }
+          ],
+          "geometry_center_cm": [
+            -7.628850274533455,
+            5.752200817402103,
+            8.225248671709686
+          ],
+          "geometry_center_mujoco_cm": [
+            -7.628850274533455,
+            -5.752200817402103,
+            8.225248671709686
+          ],
+          "surface_normal": [
+            -0.4957246467497458,
+            0.4421322952330372,
+            0.747513282903258
+          ],
+          "render_normal": [
+            -0.4957246467497458,
+            0.4421322952330372,
+            0.747513282903258
+          ],
+          "render_normal_mujoco": [
+            -0.4957246467497458,
+            -0.4421322952330372,
+            0.747513282903258
+          ],
+          "render_normal_tilt_deg": 0.0
+        },
+        {
+          "id": "H02",
+          "component_name": "MarkerVisual_02",
+          "position_cm": [
+            6.467546000000027,
+            7.091627984508595,
+            8.536000000000001
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_02",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.055,
+                0.055,
+                0.002
+              ]
+            }
+          ],
+          "geometry_center_cm": [
+            6.428881808583936,
+            7.041539291868511,
+            8.458564845375328
+          ],
+          "geometry_center_mujoco_cm": [
+            6.428881808583936,
+            -7.041539291868511,
+            8.458564845375328
+          ],
+          "surface_normal": [
+            0.4069130116392467,
+            0.5271477308786422,
+            0.746014122378509
+          ],
+          "render_normal": [
+            0.38664191416090465,
+            0.5008869264008501,
+            0.7743515462467296
+          ],
+          "render_normal_mujoco": [
+            0.38664191416090465,
+            -0.5008869264008501,
+            0.7743515462467296
+          ],
+          "render_normal_tilt_deg": 2.5
+        },
+        {
+          "id": "H03",
+          "component_name": "MarkerVisual_03",
+          "position_cm": [
+            -10.917738983425181,
+            -3.283497175765235,
+            5.430000000000007
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_03",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.055,
+                0.055,
+                0.002
+              ]
+            }
+          ],
+          "geometry_center_cm": [
+            -10.840785462001962,
+            -3.2561535070722005,
+            5.372289694828643
+          ],
+          "geometry_center_mujoco_cm": [
+            -10.840785462001962,
+            3.2561535070722005,
+            5.372289694828643
+          ],
+          "surface_normal": [
+            -0.7695352142321765,
+            -0.27343668693033774,
+            0.5771030517136423
+          ],
+          "render_normal": [
+            -0.7695352142321765,
+            -0.27343668693033774,
+            0.5771030517136423
+          ],
+          "render_normal_mujoco": [
+            -0.7695352142321765,
+            0.27343668693033774,
+            0.5771030517136423
+          ],
+          "render_normal_tilt_deg": 0.0
+        },
+        {
+          "id": "H04",
+          "component_name": "MarkerVisual_04",
+          "position_cm": [
+            11.589999999999975,
+            1.0,
+            5.0294181899064085
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_04",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.055,
+                0.055,
+                0.002
+              ]
+            }
+          ],
+          "geometry_center_cm": [
+            11.50952703097464,
+            0.99179665580281,
+            4.970623577906412
+          ],
+          "geometry_center_mujoco_cm": [
+            11.50952703097464,
+            -0.99179665580281,
+            4.970623577906412
+          ],
+          "surface_normal": [
+            0.8294773945406756,
+            0.08455620133840747,
+            0.5521027990883862
+          ],
+          "render_normal": [
+            0.8047296902533415,
+            0.08203344197190061,
+            0.5879461199999569
+          ],
+          "render_normal_mujoco": [
+            0.8047296902533415,
+            -0.08203344197190061,
+            0.5879461199999569
+          ],
+          "render_normal_tilt_deg": 2.5
+        },
+        {
+          "id": "H05",
+          "component_name": "MarkerVisual_05",
+          "position_cm": [
+            7.3499947856223,
+            -9.327105552106417,
+            4.699999999999989
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_05",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.055,
+                0.055,
+                0.002
+              ]
+            }
+          ],
+          "geometry_center_cm": [
+            7.302654339024917,
+            -9.25612872901088,
+            4.6478351392293025
+          ],
+          "geometry_center_mujoco_cm": [
+            7.302654339024917,
+            9.25612872901088,
+            4.6478351392293025
+          ],
+          "surface_normal": [
+            0.4855797000415895,
+            -0.7280223771809726,
+            0.4839377782641955
+          ],
+          "render_normal": [
+            0.47340446597383334,
+            -0.7097682309553717,
+            0.5216486077068663
+          ],
+          "render_normal_mujoco": [
+            0.47340446597383334,
+            0.7097682309553717,
+            0.5216486077068663
+          ],
+          "render_normal_tilt_deg": 2.5
+        },
+        {
+          "id": "H06",
+          "component_name": "MarkerVisual_06",
+          "position_cm": [
+            -3.916394712187355,
+            -10.942839653244995,
+            4.849999999999994
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_06",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.055,
+                0.055,
+                0.002
+              ]
+            }
+          ],
+          "geometry_center_cm": [
+            -3.8910497019507564,
+            -10.859171458951081,
+            4.801448339681294
+          ],
+          "geometry_center_mujoco_cm": [
+            -3.8910497019507564,
+            10.859171458951081,
+            4.801448339681294
+          ],
+          "surface_normal": [
+            -0.253450102365984,
+            -0.836681942939146,
+            0.4855166031870049
+          ],
+          "render_normal": [
+            -0.253450102365984,
+            -0.836681942939146,
+            0.4855166031870049
+          ],
+          "render_normal_mujoco": [
+            -0.253450102365984,
+            0.836681942939146,
+            0.4855166031870049
+          ],
+          "render_normal_tilt_deg": 0.0
+        }
+      ],
+      "geometry_mujoco": {
+        "type": "ellipsoid_with_lower_collar",
+        "center_cm": [
+          0.0,
+          0.0,
+          -1.5
+        ],
+        "radii_cm": [
+          12.5,
+          11.5,
+          11.5
+        ],
+        "marker_attachment": "team local anchor retained; render disk center is one half-thickness inward"
+      },
+      "marker_visual_mujoco": {
+        "type": "red_emissive_disc",
+        "diameter_cm": 4.0,
+        "thickness_cm": 0.2,
+        "note": "Each 5.5 cm disc keeps the team GT anchor at its observable outer face center."
+      }
+    }
+  ]
+}

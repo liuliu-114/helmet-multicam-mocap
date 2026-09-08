@@ -1,0 +1,39 @@
+{
+  "version": "0.5.4-four-camera-rigidbody-capture",
+  "dataset_name": "dataset_rigidbody_0001",
+  "units": "cm",
+  "fps": 30,
+  "frame_count": 90,
+  "duration_sec": 3.0,
+  "image_width": 1280,
+  "image_height": 720,
+  "horizontal_fov_deg": 60.0,
+  "camera_ids": [
+    "Camera_01",
+    "Camera_02",
+    "Camera_03",
+    "Camera_04"
+  ],
+  "rigid_body_id": "test_box_01",
+  "rigid_body_blueprint": "/Game/Mocap/Blueprints/RigidBodies/BP_TestRigidBody_Box",
+  "trajectory": {
+    "x_cm": [
+      -150.0,
+      150.0
+    ],
+    "y_sine_amplitude_cm": 50.0,
+    "z_base_cm": 150.0,
+    "z_sine_amplitude_cm": 20.0,
+    "yaw_deg": [
+      -30.0,
+      30.0
+    ],
+    "pitch_amplitude_deg": 10.0,
+    "roll_amplitude_deg": 8.0
+  },
+  "visibility": {
+    "in_front": true,
+    "image_bounds": true,
+    "physical_occlusion": false
+  }
+}

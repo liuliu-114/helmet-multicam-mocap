@@ -5,7 +5,7 @@ import launch_ros.actions as actions
 from ament_index_python.packages import get_package_share_directory
 from os.path import join
 from yaml import safe_load
-from os import system
+from os import environ, system
 
 # Authored by Gary Lvov
 def generate_launch_description():
@@ -26,8 +26,9 @@ def generate_launch_description():
 
     for port in ports:
         # although clunky, this ensures that the arducam's settings are correclty set.
+        sink = "autovideosink" if environ.get("DISPLAY") else "fakesink"
         system(
-            f"timeout 10 gst-launch-1.0 -v v4l2src device=/dev/video{port} ! videoconvert ! autovideosink")
+            f"timeout 10 gst-launch-1.0 -v v4l2src device=/dev/video{port} ! videoconvert ! {sink}")
 
     for idx, port in enumerate(ports):
         stream_param = None
@@ -54,13 +55,13 @@ def generate_launch_description():
                                       "publish_debug_stream": True}])]
         all_nodes.extend(nodes)
 
-    stereo_param = {key: value for (key, value) in param.items()}
-    stereo_param.update({"number_cameras": len(ports)})
+    triangulate_param = {key: value for (key, value) in stereo_param.items()}
+    triangulate_param.update({"number_cameras": len(ports)})
     all_nodes.append(actions.Node(package="mobile_mocap",
                                   executable="triangulate",
                                   output="screen",
                                   # prefix=['xterm -e gdb -ex run --args'], # uncomment to debug
-                                  parameters=[stereo_param]))
+                                  parameters=[triangulate_param]))
 
     all_nodes.append(
         # rigid body tracking

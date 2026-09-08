@@ -1,0 +1,151 @@
+{
+  "version": "0.7.1-nearfield-elevated-outer-camera-capture",
+  "generated_from_spawned_blueprint_instance": true,
+  "units": "cm",
+  "marker_visual": {
+    "type": "read_from_current_blueprint_components",
+    "discovery_mode": "component_name_fallback",
+    "component_tag": null,
+    "component_name_pattern": "MarkerVisual_01-MarkerVisual_06",
+    "ground_truth_anchor": "component_pivot"
+  },
+  "rigid_bodies": [
+    {
+      "rigid_body_id": "helmet_01",
+      "blueprint_path": "/Game/Mocap/Blueprints/RigidBodies/BP_HelmetRigidBody_01",
+      "body_meshes": [
+        {
+          "component_name": "HelmetMesh",
+          "static_mesh": "/Game/Fab/Motorcycle_Helmet_3D_Model/helmet_project.helmet_project",
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "id": "H01",
+          "component_name": "MarkerVisual_01",
+          "position_cm": [
+            -7.678422739208414,
+            5.796414046925407,
+            8.300000000000011
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_01",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.04,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H02",
+          "component_name": "MarkerVisual_02",
+          "position_cm": [
+            6.467546000000002,
+            7.091627984508596,
+            8.536000000000001
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_02",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.04,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H03",
+          "component_name": "MarkerVisual_03",
+          "position_cm": [
+            -10.917738983425188,
+            -3.2834971757652345,
+            5.430000000000007
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_03",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.04,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H04",
+          "component_name": "MarkerVisual_04",
+          "position_cm": [
+            11.590000000000002,
+            1.0000000000000004,
+            5.0294181899064085
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_04",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.04,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H05",
+          "component_name": "MarkerVisual_05",
+          "position_cm": [
+            7.349994785622316,
+            -9.327105552106419,
+            4.699999999999989
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_05",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.04,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H06",
+          "component_name": "MarkerVisual_06",
+          "position_cm": [
+            -3.9163947121873304,
+            -10.942839653244995,
+            4.849999999999994
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_06",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.04,
+                0.002
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

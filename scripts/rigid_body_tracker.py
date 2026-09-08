@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 from __future__ import annotations
 
 import rclpy
@@ -9,7 +9,6 @@ from geometry_msgs.msg import TransformStamped
 from tf2_ros.transform_broadcaster import TransformBroadcaster
 from tf2_ros.static_transform_broadcaster import StaticTransformBroadcaster
 from skspatial.objects import Plane, Points
-from mathutils import Quaternion
 import math
 import numpy as np
 

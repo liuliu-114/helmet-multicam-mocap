@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import numpy as np
 # Authored by Gary Lvov and Xavier Hubbard
 

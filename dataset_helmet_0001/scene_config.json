@@ -1,0 +1,80 @@
+{
+  "version": "0.6.1-profiled-rigidbody-capture",
+  "active_profile": "helmet_dynamic",
+  "capture_mode": "dynamic",
+  "dataset_name": "dataset_helmet_0001",
+  "units": "cm",
+  "fps": 30,
+  "frame_count": 90,
+  "duration_sec": 3.0,
+  "image_width": 1280,
+  "image_height": 720,
+  "horizontal_fov_deg_by_camera": {
+    "Camera_01": 70.0,
+    "Camera_02": 70.0,
+    "Camera_03": 70.0,
+    "Camera_04": 70.0
+  },
+  "camera_ids": [
+    "Camera_01",
+    "Camera_02",
+    "Camera_03",
+    "Camera_04"
+  ],
+  "rigid_body_id": "helmet_01",
+  "rigid_body_blueprint": "/Game/Mocap/Blueprints/RigidBodies/BP_HelmetRigidBody",
+  "camera_to_rigid_body_distance": {
+    "target_range_m": [
+      0.2,
+      2.3
+    ],
+    "measured_range_m": [
+      1.2451703831397218,
+      1.9339079605813716
+    ],
+    "per_camera": {
+      "Camera_01": {
+        "min_m": 1.3190905958272918,
+        "max_m": 1.9339079605813716
+      },
+      "Camera_02": {
+        "min_m": 1.2451703831397218,
+        "max_m": 1.9339079605813716
+      },
+      "Camera_03": {
+        "min_m": 1.2451703831397218,
+        "max_m": 1.9339079605813716
+      },
+      "Camera_04": {
+        "min_m": 1.3190905958272918,
+        "max_m": 1.9339079605813716
+      }
+    }
+  },
+  "lighting": {
+    "normalized_room_lights": true,
+    "room_light_intensity": 100.0,
+    "fixed_capture_exposure": true,
+    "capture_exposure_bias": -1.5
+  },
+  "trajectory": {
+    "x_cm": [
+      -50.0,
+      50.0
+    ],
+    "y_sine_amplitude_cm": 20.0,
+    "z_base_cm": 150.0,
+    "z_sine_amplitude_cm": 10.0,
+    "yaw_deg": [
+      -30.0,
+      30.0
+    ],
+    "pitch_amplitude_deg": 10.0,
+    "roll_amplitude_deg": 8.0
+  },
+  "visibility": {
+    "in_front": true,
+    "image_bounds": true,
+    "physical_occlusion": false
+  }
+}

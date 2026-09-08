@@ -1,0 +1,249 @@
+{
+  "version": "0.7.1-nearfield-elevated-outer-camera-capture",
+  "active_profile": "nearfield_dynamic_elevated",
+  "camera_layout_profile": "elevated_outer_overhead",
+  "test_type": "dynamic",
+  "capture_mode": "dynamic",
+  "dataset_name": "dataset_helmet_1m_dynamic_elevated_0001",
+  "units": "cm",
+  "fps": 30,
+  "frame_count": 180,
+  "samples_per_pose": 1,
+  "duration_sec": 6.0,
+  "image_width": 1280,
+  "image_height": 720,
+  "horizontal_fov_deg_by_camera": {
+    "Camera_01": 85.0,
+    "Camera_02": 85.0,
+    "Camera_03": 85.0,
+    "Camera_04": 85.0,
+    "Camera_05": 85.0,
+    "Camera_06": 85.0,
+    "Camera_07": 85.0,
+    "Camera_08": 85.0
+  },
+  "camera_count": 8,
+  "camera_ids": [
+    "Camera_01",
+    "Camera_02",
+    "Camera_03",
+    "Camera_04",
+    "Camera_05",
+    "Camera_06",
+    "Camera_07",
+    "Camera_08"
+  ],
+  "rigid_body_id": "helmet_01",
+  "rigid_body_blueprint": "/Game/Mocap/Blueprints/RigidBodies/BP_HelmetRigidBody",
+  "camera_to_rigid_body_distance": {
+    "target_range_m": [
+      0.2,
+      1.0
+    ],
+    "measured_range_m": [
+      0.693105341741992,
+      0.836301381082203
+    ],
+    "per_camera": {
+      "Camera_01": {
+        "min_m": 0.7079558709341741,
+        "max_m": 0.748731250055609
+      },
+      "Camera_02": {
+        "min_m": 0.693105341741992,
+        "max_m": 0.7568431161333592
+      },
+      "Camera_03": {
+        "min_m": 0.693105341741992,
+        "max_m": 0.7568431161333592
+      },
+      "Camera_04": {
+        "min_m": 0.7079558709341741,
+        "max_m": 0.748731250055609
+      },
+      "Camera_05": {
+        "min_m": 0.7819619292448391,
+        "max_m": 0.8277602288703434
+      },
+      "Camera_06": {
+        "min_m": 0.7920841932550258,
+        "max_m": 0.836301381082203
+      },
+      "Camera_07": {
+        "min_m": 0.7819619292448391,
+        "max_m": 0.8277602288703434
+      },
+      "Camera_08": {
+        "min_m": 0.7920841932550258,
+        "max_m": 0.836301381082203
+      }
+    }
+  },
+  "camera_to_marker_distance": {
+    "target_max_m": 1.0,
+    "measured_range_m": [
+      0.5136525584060635,
+      0.9561844311667167
+    ],
+    "per_camera": {
+      "Camera_01": {
+        "min_m": 0.5469774548539551,
+        "max_m": 0.8669132789573455
+      },
+      "Camera_02": {
+        "min_m": 0.5136525584060635,
+        "max_m": 0.8640613466078717
+      },
+      "Camera_03": {
+        "min_m": 0.5836201877420103,
+        "max_m": 0.9393544381528491
+      },
+      "Camera_04": {
+        "min_m": 0.5778621334239469,
+        "max_m": 0.9018559200655544
+      },
+      "Camera_05": {
+        "min_m": 0.6371743909604936,
+        "max_m": 0.8811031568199319
+      },
+      "Camera_06": {
+        "min_m": 0.6857048780082247,
+        "max_m": 0.9087811688099514
+      },
+      "Camera_07": {
+        "min_m": 0.6599500062027351,
+        "max_m": 0.9561844311667167
+      },
+      "Camera_08": {
+        "min_m": 0.6724996760643686,
+        "max_m": 0.9338280553938821
+      }
+    }
+  },
+  "framing_validation": {
+    "fully_inside_frame_camera_observations": 1440,
+    "margin_5pct_pass_camera_observations": 1420,
+    "margin_5pct_pass_rate": 0.9861111111111112
+  },
+  "distance_requirements": {
+    "origin_min_m": 0.2,
+    "origin_max_m": 1.0,
+    "marker_max_m": 1.0,
+    "marker_distance_enforced": true
+  },
+  "lighting": {
+    "normalized_room_lights": true,
+    "room_light_intensity": 100.0,
+    "fixed_capture_exposure": true,
+    "capture_exposure_bias": -1.5
+  },
+  "trajectory": {
+    "x_cm": [
+      -3.0,
+      3.0
+    ],
+    "y_sine_amplitude_cm": 3.0,
+    "z_base_cm": 150.0,
+    "z_sine_amplitude_cm": 2.0,
+    "yaw_deg": [
+      -30.0,
+      30.0
+    ],
+    "pitch_amplitude_deg": 10.0,
+    "roll_amplitude_deg": 8.0
+  },
+  "visibility": {
+    "in_front": true,
+    "image_bounds": true,
+    "physical_occlusion": false
+  },
+  "test_design": {
+    "grid_axis_values_cm": [
+      -3.0,
+      0.0,
+      3.0
+    ],
+    "grid_z_values_cm": [
+      148.0,
+      150.0,
+      152.0
+    ],
+    "pose_rotations_pitch_yaw_roll_deg": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -30.0,
+        0.0
+      ],
+      [
+        0.0,
+        -15.0,
+        0.0
+      ],
+      [
+        0.0,
+        15.0,
+        0.0
+      ],
+      [
+        0.0,
+        30.0,
+        0.0
+      ],
+      [
+        -15.0,
+        0.0,
+        0.0
+      ],
+      [
+        15.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -15.0
+      ],
+      [
+        0.0,
+        0.0,
+        15.0
+      ],
+      [
+        -10.0,
+        -20.0,
+        0.0
+      ],
+      [
+        10.0,
+        20.0,
+        0.0
+      ],
+      [
+        -10.0,
+        20.0,
+        10.0
+      ],
+      [
+        10.0,
+        -20.0,
+        -10.0
+      ],
+      [
+        -15.0,
+        30.0,
+        15.0
+      ],
+      [
+        15.0,
+        -30.0,
+        -15.0
+      ]
+    ]
+  }
+}

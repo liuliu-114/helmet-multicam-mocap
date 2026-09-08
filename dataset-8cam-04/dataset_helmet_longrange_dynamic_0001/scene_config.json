@@ -1,0 +1,190 @@
+{
+  "version": "0.8.0-longrange-transit-capture",
+  "active_profile": "longrange_dynamic_straight",
+  "camera_layout_profile": "longrange_perimeter_8cam",
+  "test_type": "longrange_dynamic",
+  "capture_mode": "dynamic",
+  "dataset_name": "dataset_helmet_longrange_dynamic_0001",
+  "units": "cm",
+  "fps": 30,
+  "frame_count": 300,
+  "duration_sec": 10.0,
+  "image_width": 1280,
+  "image_height": 720,
+  "camera_count": 8,
+  "camera_ids": [
+    "Camera_01",
+    "Camera_02",
+    "Camera_03",
+    "Camera_04",
+    "Camera_05",
+    "Camera_06",
+    "Camera_07",
+    "Camera_08"
+  ],
+  "horizontal_fov_deg_by_camera": {
+    "Camera_01": 85.0,
+    "Camera_02": 85.0,
+    "Camera_03": 85.0,
+    "Camera_04": 85.0,
+    "Camera_05": 85.0,
+    "Camera_06": 85.0,
+    "Camera_07": 85.0,
+    "Camera_08": 85.0
+  },
+  "rigid_body_id": "helmet_01",
+  "rigid_body_variant": "BP_HelmetRigidBody_01_round",
+  "rigid_body_blueprint": "/Game/Mocap/Blueprints/RigidBodies/BP_HelmetRigidBody_01",
+  "camera_to_rigid_body_distance": {
+    "target_range_m": [
+      0.0,
+      100.0
+    ],
+    "measured_range_m": [
+      1.3601470508735443,
+      7.877182237323192
+    ],
+    "per_camera": {
+      "Camera_01": {
+        "min_m": 3.421287716962573,
+        "max_m": 7.333484846919641
+      },
+      "Camera_02": {
+        "min_m": 3.4899385002373733,
+        "max_m": 4.957822102496216
+      },
+      "Camera_03": {
+        "min_m": 3.356160388754228,
+        "max_m": 7.333484846919641
+      },
+      "Camera_04": {
+        "min_m": 3.4453258583863993,
+        "max_m": 7.387827826905551
+      },
+      "Camera_05": {
+        "min_m": 3.3882814856542867,
+        "max_m": 4.876474136094644
+      },
+      "Camera_06": {
+        "min_m": 3.5455260074309454,
+        "max_m": 7.387827826905551
+      },
+      "Camera_07": {
+        "min_m": 1.3601470508735443,
+        "max_m": 7.877182237323192
+      },
+      "Camera_08": {
+        "min_m": 1.3601470508735443,
+        "max_m": 7.877182237323192
+      }
+    }
+  },
+  "camera_to_marker_distance": {
+    "target_max_m": 100.0,
+    "measured_range_m": [
+      1.2492757483154804,
+      7.985202258838216
+    ],
+    "per_camera": {
+      "Camera_01": {
+        "min_m": 3.305053328632381,
+        "max_m": 7.435609700871502
+      },
+      "Camera_02": {
+        "min_m": 3.3717173115074695,
+        "max_m": 5.035142130881227
+      },
+      "Camera_03": {
+        "min_m": 3.237653021003242,
+        "max_m": 7.419171311025963
+      },
+      "Camera_04": {
+        "min_m": 3.337440317347241,
+        "max_m": 7.486961935304788
+      },
+      "Camera_05": {
+        "min_m": 3.285973198535018,
+        "max_m": 4.985097725578253
+      },
+      "Camera_06": {
+        "min_m": 3.4544359608507484,
+        "max_m": 7.49010301726666
+      },
+      "Camera_07": {
+        "min_m": 1.2492757483154804,
+        "max_m": 7.985202258838216
+      },
+      "Camera_08": {
+        "min_m": 1.252986478201164,
+        "max_m": 7.978073301821415
+      }
+    }
+  },
+  "distance_requirements": {
+    "working_distance_enforced": false,
+    "marker_distance_enforced": false,
+    "distance_recorded_for_evaluation": true,
+    "distance_bands_m": [
+      0.0,
+      2.0,
+      4.0,
+      6.0
+    ]
+  },
+  "coverage_requirements": {
+    "minimum_active_cameras_per_frame": 3,
+    "minimum_projected_markers_per_active_camera": 4,
+    "physical_occlusion_included": false
+  },
+  "coverage_preflight": {
+    "minimum_active_camera_count": 4,
+    "maximum_active_camera_count": 8,
+    "mean_active_camera_count": 6.446666666666666,
+    "failed_frame_count": 0,
+    "fully_inside_frame_camera_observations": 1808,
+    "camera_frame_observations": 2400
+  },
+  "trajectory": {
+    "axis": "+X",
+    "start_cm": [
+      -350.0,
+      0.0,
+      150.0
+    ],
+    "end_cm": [
+      350.0,
+      0.0,
+      150.0
+    ],
+    "path_length_m": 7.0,
+    "y_sine_amplitude_cm": 10.0,
+    "z_sine_amplitude_cm": 5.0,
+    "yaw_amplitude_deg": 20.0,
+    "pitch_amplitude_deg": 8.0,
+    "roll_amplitude_deg": 5.0,
+    "checkpoint_x_cm": [
+      -350.0,
+      -175.0,
+      0.0,
+      175.0,
+      350.0
+    ]
+  },
+  "lighting": {
+    "normalized_room_lights": true,
+    "room_light_intensity": 100.0,
+    "fixed_capture_exposure": true,
+    "capture_exposure_bias": -1.5
+  },
+  "visibility": {
+    "in_front": true,
+    "image_bounds": true,
+    "physical_occlusion": false
+  },
+  "coverage_result": {
+    "minimum_active_camera_count": 4,
+    "maximum_active_camera_count": 8,
+    "mean_active_camera_count": 6.446666666666666,
+    "failed_frame_count": 0
+  }
+}

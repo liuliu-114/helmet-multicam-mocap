@@ -1,0 +1,148 @@
+{
+  "version": "0.7.0-nearfield-accuracy-capture",
+  "generated_from_spawned_blueprint_instance": true,
+  "units": "cm",
+  "marker_visual": {
+    "type": "read_from_current_blueprint_components",
+    "component_tag": "MocapMarker"
+  },
+  "rigid_bodies": [
+    {
+      "rigid_body_id": "helmet_01",
+      "blueprint_path": "/Game/Mocap/Blueprints/RigidBodies/BP_HelmetRigidBody",
+      "body_meshes": [
+        {
+          "component_name": "HelmetMesh",
+          "static_mesh": "/Game/Fab/Motorcycle_Helmet_3D_Model/helmet_project.helmet_project",
+          "relative_scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "id": "H01",
+          "component_name": "Marker_01",
+          "position_cm": [
+            -4.8289899296079275,
+            9.002598027226146,
+            8.199999999999989
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_01",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.03,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H02",
+          "component_name": "Marker_02",
+          "position_cm": [
+            4.342411001474836,
+            9.365753635037729,
+            8.051265802817
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_02",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.03,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H03",
+          "component_name": "Marker_03",
+          "position_cm": [
+            -12.14100087232088,
+            -0.8322431108535213,
+            3.3037472967899078
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_03",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.03,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H04",
+          "component_name": "Marker_04",
+          "position_cm": [
+            12.648663332652381,
+            2.2246985743593046,
+            2.8440057809862367
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_04",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.03,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H05",
+          "component_name": "Marker_05",
+          "position_cm": [
+            4.776390944553525,
+            -18.094297568219144,
+            3.4482438662782613
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_05",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.03,
+                0.002
+              ]
+            }
+          ]
+        },
+        {
+          "id": "H06",
+          "component_name": "Marker_06",
+          "position_cm": [
+            -4.365081544392806,
+            -7.86489365389307,
+            9.0084258436097
+          ],
+          "visual_components": [
+            {
+              "component_name": "MarkerVisual_06",
+              "static_mesh": "/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder",
+              "relative_scale": [
+                0.03,
+                0.03,
+                0.002
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

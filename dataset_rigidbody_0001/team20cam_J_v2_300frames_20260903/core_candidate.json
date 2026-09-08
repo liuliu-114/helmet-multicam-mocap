@@ -1,0 +1,12 @@
+{
+  "candidate": "J_mixed_marker4_t2p5_center",
+  "frames": 300,
+  "relay_fov_deg": 0.0,
+  "marker_radius_m": 0.02,
+  "marker_layout": "team",
+  "marker_tilt_deg": 2.5,
+  "high_camera_ids": "",
+  "high_camera_z_offset_cm": 0.0,
+  "principal_x_offset_px": -0.5,
+  "principal_y_offset_px": -0.5
+}

@@ -1,0 +1,153 @@
+{
+  "version": "0.5.3-two-rigidbody-blueprints",
+  "units": "cm",
+  "marker_visual": {
+    "type": "red_emissive_sphere",
+    "diameter_cm": 3.0,
+    "component_tag": "MocapMarker"
+  },
+  "rigid_bodies": [
+    {
+      "rigid_body_id": "test_box_01",
+      "blueprint_path": "/Game/Mocap/Blueprints/RigidBodies/BP_TestRigidBody_Box",
+      "body_size_cm": [
+        40.0,
+        30.0,
+        20.0
+      ],
+      "markers": [
+        {
+          "id": "B01",
+          "position_cm": [
+            21.5,
+            -10.0,
+            6.0
+          ]
+        },
+        {
+          "id": "B02",
+          "position_cm": [
+            21.5,
+            8.0,
+            -4.0
+          ]
+        },
+        {
+          "id": "B03",
+          "position_cm": [
+            -12.0,
+            -8.0,
+            11.5
+          ]
+        },
+        {
+          "id": "B04",
+          "position_cm": [
+            8.0,
+            10.0,
+            11.5
+          ]
+        },
+        {
+          "id": "B05",
+          "position_cm": [
+            -6.0,
+            -16.5,
+            -2.0
+          ]
+        },
+        {
+          "id": "B06",
+          "position_cm": [
+            13.0,
+            16.5,
+            3.0
+          ]
+        }
+      ],
+      "preview_transform": {
+        "location_cm": [
+          -90.0,
+          0.0,
+          150.0
+        ],
+        "rotation_pitch_yaw_roll_deg": [
+          0.0,
+          -15.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "rigid_body_id": "test_bar_01",
+      "blueprint_path": "/Game/Mocap/Blueprints/RigidBodies/BP_TestRigidBody_Bar",
+      "body_size_cm": [
+        60.0,
+        16.0,
+        16.0
+      ],
+      "markers": [
+        {
+          "id": "R01",
+          "position_cm": [
+            31.5,
+            -5.0,
+            4.0
+          ]
+        },
+        {
+          "id": "R02",
+          "position_cm": [
+            31.5,
+            5.0,
+            -3.0
+          ]
+        },
+        {
+          "id": "R03",
+          "position_cm": [
+            -31.5,
+            -4.0,
+            2.0
+          ]
+        },
+        {
+          "id": "R04",
+          "position_cm": [
+            -12.0,
+            2.0,
+            9.5
+          ]
+        },
+        {
+          "id": "R05",
+          "position_cm": [
+            4.0,
+            -9.5,
+            -2.0
+          ]
+        },
+        {
+          "id": "R06",
+          "position_cm": [
+            18.0,
+            9.5,
+            3.0
+          ]
+        }
+      ],
+      "preview_transform": {
+        "location_cm": [
+          90.0,
+          0.0,
+          150.0
+        ],
+        "rotation_pitch_yaw_roll_deg": [
+          0.0,
+          25.0,
+          8.0
+        ]
+      }
+    }
+  ]
+}
